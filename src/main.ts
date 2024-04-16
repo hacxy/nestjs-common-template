@@ -1,8 +1,11 @@
-import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
+import { bootstrap } from 'uni-nest';
 
-async function bootstrap() {
-  const app = await NestFactory.create(AppModule);
-  await app.listen(3000);
-}
-bootstrap();
+bootstrap(AppModule, {
+  swaggerOptions: {
+    title: 'nestjs模板接口文档',
+    description: '这是一个nestjs模板项目的接口文档',
+    version: '1.0.0',
+    license: ['MIT'],
+  },
+});
