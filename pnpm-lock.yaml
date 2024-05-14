@@ -33,8 +33,8 @@ importers:
         specifier: ^7.8.1
         version: 7.8.1
       uni-nest:
-        specifier: ^0.3.7
-        version: 0.3.7(@nestjs/platform-express@10.3.7(@nestjs/common@10.3.7(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.3.7))(reflect-metadata@0.2.2)
+        specifier: ^0.4.0
+        version: 0.4.0(@nestjs/platform-express@10.3.7(@nestjs/common@10.3.7(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.3.7))(reflect-metadata@0.2.2)
     devDependencies:
       '@nestjs/cli':
         specifier: ^10.0.0
@@ -2786,8 +2786,8 @@ packages:
   undici-types@5.26.5:
     resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
 
-  uni-nest@0.3.7:
-    resolution: {integrity: sha512-ogsjxJeaPAm6y1r4yG+sdKoZY7iwPNVMD9Zp9ulY2ouJFxm5tmgRM9BhcHjoYeAk/yi1ETpaZq+hhhGVv8LRxA==}
+  uni-nest@0.4.0:
+    resolution: {integrity: sha512-hXE/PJYcvYEyiTrRtfgI3xUAc7w2MhVVeLEjSETynoHnHK9N0Iw8jcHBvPWGFunDEnK4lxDWHwIsuWKQwl2rkA==}
 
   universalify@2.0.1:
     resolution: {integrity: sha512-gptHNQghINnc/vTGIk0SOFGFNXw7JVrlRUtConJRlvaw6DuX0wO5Jeko9sWrMBhh+PsYAZ7oXAiOnf/UKogyiw==}
@@ -6037,7 +6037,7 @@ snapshots:
 
   undici-types@5.26.5: {}
 
-  uni-nest@0.3.7(@nestjs/platform-express@10.3.7(@nestjs/common@10.3.7(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.3.7))(reflect-metadata@0.2.2):
+  uni-nest@0.4.0(@nestjs/platform-express@10.3.7(@nestjs/common@10.3.7(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.3.7))(reflect-metadata@0.2.2):
     dependencies:
       '@nestjs/common': 10.3.7(reflect-metadata@0.2.2)(rxjs@7.8.1)
       '@nestjs/core': 10.3.7(@nestjs/common@10.3.7(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/platform-express@10.3.7(@nestjs/common@10.3.7(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.3.7))(reflect-metadata@0.2.2)(rxjs@7.8.1)
